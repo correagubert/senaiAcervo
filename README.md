@@ -2,5 +2,5 @@
 PARTICIPANTES DESTE PROJETO:
 - Luis Martins
 - Nicolas Corrêa Gubert
-- Vitor Carlos Souza Pinto
+- Vitor Carlos Souza da Rocha Pinto
 - Tiago Burlamaque
