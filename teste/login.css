@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New';
+}
+
+.container{
+    background-color: gainsboro;
+    border-style: double;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastroRegistro{
+    color: black;
+    background-color: gainsboro;
+    border-style: groove;
+    text-align: center;
+    border-width: 20px;
+    border-color: gray;
+    width: 30vw;
+}
+
+#adiciona{
+    width: 100%;
+    background-color: #D13442;
+    /* border-radius: 100%; */
+}
+
+#logar{
+    width: 100%;
+    background-color: #D13442;
+}
+
+.title{
+    color: #D13442;
+}
+
+input{
+    border-radius: 3px;
+    width: 150px;
+    height: 15px;
+}
