@@ -1,8 +1,8 @@
 # SITUAÇÃO DE APRENDIZAGEM DO SENAI - "Acervo"
 MEMBROS DO PROJETO:
--> Nicolas Corrêa Gubert;
--> Vitor Carlos Souza da Rocha Pinto;
--> Tiago Burlamaque
+- Nicolas Corrêa Gubert;
+- Vitor Carlos Souza da Rocha Pinto;
+- Tiago Burlamaque
 - Luis Martins;
 
 # TEMA:
