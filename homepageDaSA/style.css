@@ -1,0 +1,15 @@
+body{
+    font-family: Helvetica;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .welcome{
+    font-family: Garamond;
+    font-size: large;
+} */
+
+.userInfo{
+    font-family: 'Courier New', Courier, monospace;
+}

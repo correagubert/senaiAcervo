@@ -1,6 +1,8 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(assortment-cinema-elements-red-background-with-copy-space.jpg);
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 .login{
     text-align: center;
