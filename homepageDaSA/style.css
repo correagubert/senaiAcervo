@@ -13,3 +13,39 @@ body{
 .userInfo{
     font-family: 'Courier New', Courier, monospace;
 }
+
+/* Estilo para o modal */
+.modal {
+    display: none; /* Oculta o modal por padrão */
+    position: fixed; /* Fixa o modal na tela */
+    z-index: 1; /* Garante que o modal fique acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total da tela */
+    height: 100%; /* Altura total da tela */
+    overflow: auto; /* Adiciona barra de rolagem se necessário */
+    background-color: rgb(0,0,0); /* Cor de fundo */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo com transparência */
+}
+/* Estilo para o conteúdo do modal */
+.modal-content {
+    background-color: #fefefe; /* Cor de fundo do conteúdo */
+    margin: 15% auto; /* Margem para centralizar o modal */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #888; /* Borda do modal */
+    width: 80%; /* Largura do conteúdo do modal */
+}
+/* Estilo para o botão de fechar */
+.close {
+    color: #aaa; /* Cor do botão de fechar */
+    float: right; /* Alinha à direita */
+    font-size: 28px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+/* Estilo para o botão de fechar quando o mouse estiver sobre ele */
+.close:hover,
+.close:focus {
+    color: black; /* Cor preta */
+    text-decoration: none; /* Remove sublinhado */
+    cursor: pointer; /* Altera o cursor para pointer */
+}
