@@ -1,34 +1,26 @@
-let dados = [];
-let inputEmail = document.getElementById('email');
-let inputSenha = document.getElementById('senha');
-let inputcadEmail = document.getElementById('cadEmail');
-let inputcadSenha = document.getElementById('cadSenha');
-
-function logar(){
-    let dadosLogados = {
-        email:inputEmail.value,
-        senha:inputSenha.value,
-    }
-    informações();
-    if (dadosLogados.email === inputcadEmail  && dadosLogados.senha === inputcadSenha) {
-        alert('Seja bem vindo!')
-    }else{
-        alert('acesso negado!')
-    }
-    inputEmail.value = null;
-    inputSenha.value = null;
-    cadastrar();
-}
 function cadastrar(){
-    let dadosPessoais = {
-        cadEmail:inputcadEmail.value,
-        cadSenha:inputcadSenha.value
+    let cadEmail = document.getElementById("cadEmail");
+    let cadSenha = document.getElementById("cadSenha");
+    let bancodeDados = JSON.parse(localStorage.getItem("bancodeDados")) || []
+    let cadUsuario = {cadEmail, cadSenha}
+    for(let usuario of bancodeDados){
+        bancodeDados.push(cadUsuario)
     }
-    dados.push(dadosPessoais);
-    informações();
-    alert('Cadastro feito com sucesso!')
+    alert("Usuário cadastrado")
+    window.location.href = "index.html"
 }
-function informações(){
-
+function logar(){
+    let email = document.getElementById("email")
+    let senha = document.getElementById("senha")
+    let bancodeDados = JSON.parse(localStorage.getItem("bancodeDados"))
+    let usuario = {email, senha}
+    if(bancodeDados == null){
+        alert("email ou senha incorreto!");
+    }
+    else{
+        alert("seja bem vindo!")
+    }
 }
-
+function cadLocation() {
+    window.location.href = "cad.html"
+}
