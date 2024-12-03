@@ -1,0 +1,127 @@
+body{
+    
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o padding padrão do corpo */
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o padding padrão do corpo */
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    text-align: center;
+}
+.login{
+    text-align: center;
+    border-style: none;
+    border-radius: 50px;
+    width: 60%;
+}
+input{
+    border-style: groove;
+    border-radius: 10px;
+    background-color: white;
+    border-color: black;
+    width: 80%;
+    height: 50px;
+}
+input:hover{
+    scale: 1.1;
+    transition-duration: 0.10s;
+}
+img{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+button{
+    border-radius: 10px;
+    border-style: hidden;
+    border-color: red;
+    background-color: rgb(230, 20, 20);
+    text-align: center;
+    height: 50px;
+    width: 80%;
+}
+button:hover{
+    background-color: yellow;
+    scale: 1.1;
+    transition-duration: 0.5s;
+}
+.container{
+    height: 300px;
+    width: 30vw;
+}
+.frufru{
+    border-style: solid;
+    border-radius: 50px;
+    width: 1000px;
+    text-align: center;
+    color: black;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+hr{
+    width: 80%;
+}
+.button2{
+    width: 20vw;
+    height:50px ;
+    background-color: red;
+}
+.button2:hover{
+    background-color: greenyellow;
+    scale: 1.1;
+    transition-duration: 0.5s;
+}
+body {
+}
+/* Estilização do título principal */
+h1 {
+    color: #333; /* Define a cor do texto do título */
+}
+/* Estilização dos parágrafos */
+p {
+    font-size: 16px; /* Define o tamanho da fonte dos parágrafos */
+    color: #666; /* Define a cor do texto dos parágrafos */
+}
+/* Estilo para o modal */
+.modal {
+    display: block; /* Oculta o modal por padrão */
+    position: fixed; /* Fixa o modal na tela */
+    z-index: 1; /* Garante que o modal fique acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total da tela */
+    height: 100%; /* Altura total da tela */
+    overflow: auto; /* Adiciona barra de rolagem se necessário */
+    background-color: rgb(0,0,0); /* Cor de fundo */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo com transparência */
+}
+/* Estilo para o conteúdo do modal */
+.modal-content {
+    background-color: #fefefe; /* Cor de fundo do conteúdo */
+    margin: 15% auto; /* Margem para centralizar o modal */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #888; /* Borda do modal */
+    width: 80%; /* Largura do conteúdo do modal */
+}
+/* Estilo para o botão de fechar */
+.close {
+    color: #aaa; /* Cor do botão de fechar */
+    float: right; /* Alinha à direita */
+    font-size: 28px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+/* Estilo para o botão de fechar quando o mouse estiver sobre ele */
+.close:hover,
+.close:focus {
+    color: black; /* Cor preta */
+    text-decoration: none; /* Remove sublinhado */
+    cursor: pointer; /* Altera o cursor para pointer */
+}
+
+
