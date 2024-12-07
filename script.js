@@ -15,6 +15,10 @@ function logar(){
     for (let usuario of bancodeDados){
         if (username == usuario.cadUser && senha == usuario.cadSenha){
             alert("parabéns, você logou!")
+            window.location.href = "home.html";
+            break;
+        }else{
+            alert("Usuário/Senha incorretos!")
             break;
         }
     }
