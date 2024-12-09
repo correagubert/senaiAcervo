@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="perfil.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViewFlix - Perfil</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <h2 id="titulo">ViewFlix</h2>
+        <button id="botaoSobre" onclick="redAnalise()">Criar Análise</button>
+        <button id="botaoHome" onclick="redHome()">Home</button>
+        <button id="botaoPerfil" onclick="redPerfil()">Perfil</button>
+    </div>
+
+    <div id="conteudo">
+        <h3>Informações do Usuário</h3>
+        <div id="infoUsuario">
+            <!-- As informações do usuário serão inseridas aqui -->
+        </div>
+        <button onclick="mostrarModalModificar()">Modificar</button>
+        <button onclick="mostrarModalDeletar()">Deletar</button>
+        <button onclick="mostrarModalDeslogar()">Deslogar</button>
+    </div>
+
+    <!-- Modal Modificar -->
+    <div id="modalModificar" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal('modalModificar')">&times;</span>
+            <h2>Modificar Usuário</h2>
+            <form id="formModificar">
+                <label for="usuarioAntigo">Nome de Usuário Antigo:</label>
+                <input type="text" id="usuarioAntigo" name="usuarioAntigo" required>
+                <br><br>
+
+                <label for="usuarioNovo">Novo Nome de Usuário:</label>
+                <input type="text" id="usuarioNovo" name="usuarioNovo" required>
+                <br><br>
+
+                <label for="senhaAntiga">Senha Antiga:</label>
+                <input type="password" id="senhaAntiga" name="senhaAntiga" required>
+                <br><br>
+
+                <label for="senhaNova">Nova Senha:</label>
+                <input type="password" id="senhaNova" name="senhaNova" required>
+                <br><br>
+
+                <label for="imagem">Nova Foto:</label>
+                <input type="file" id="imagem" name="imagem" accept="image/*">
+                <br><br>
+
+                <button type="submit">Atualizar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Deletar -->
+    <div id="modalDeletar" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal('modalDeletar')">&times;</span>
+            <h2>Deletar Usuário</h2>
+            <p>Tem certeza que deseja deletar sua conta?</p>
+            <button onclick="deletarConta()">Sim</button>
+            <button onclick="fecharModal('modalDeletar')">Não</button>
+        </div>
+    </div>
+
+    <!-- Modal Deslogar -->
+    <div id="modalDeslogar" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal('modalDeslogar')">&times;</span>
+            <h2>Deslogar</h2>
+            <p>Tem certeza que deseja deslogar?</p>
+            <button onclick="deslogar()">Sim</button>
+            <button onclick="fecharModal('modalDeslogar')">Não</button>
+        </div>
+    </div>
+
+    <script src="perfil.js"></script>
+</body>
+</html>
