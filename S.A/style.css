@@ -59,26 +59,22 @@ hr{
     width: 80%;
 }
 p {
-    font-size: 16px; /* Define o tamanho da fonte dos parágrafos */
-    color: #666; /* Define a cor do texto dos parágrafos */
+    font-size: 16px;
+    color: #666;
 }
-/* Estilo para o modal */
+
 .modal {
     text-align: center;
-    display: block; /* Oculta o modal por padrão */
-    z-index: 1; /* Garante que o modal fique acima de outros elementos */
+    display: block;
+    z-index: 1;
     width: 40%;
-    /* overflow: auto; */
     margin-left: 20vh;
-    /* position: fixed; */
-    /* background-color: rgb(0,0,0);  */
-    /* background-color: rgba(0,0,0,0.4); */
 }
-/* Estilo para o conteúdo do modal */
+
 .modal-content {
-    background-color: #fefefe; /* Cor de fundo do conteúdo */
-    margin: 15% auto; /* Margem para centralizar o modal */
+    background-color: #fefefe;
+    margin: 15% auto;
     padding: 10px;
-    border: 1px solid #888; /* Borda do modal */
-    width: auto; /* Largura do conteúdo do modal */
+    border: 1px solid #888;
+    width: auto;
 }
