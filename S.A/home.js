@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (filmes.length === 0) {
         conteudo.innerHTML = `
-            <p>Parece que ainda não tem nada aqui. Gostaria de criar uma análise?</p>
+            <p>Parece que ainda não tem nada aqui.<br>Gostaria de criar uma análise?</p>
             <button onclick="redAnalise()">Criar Análise</button>
         `;
     } else {
