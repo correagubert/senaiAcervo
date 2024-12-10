@@ -1,12 +1,12 @@
 body{
     
-    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    font-family: Arial, sans-serif;
     margin: 0; /* Remove a margem padrão do corpo */
     padding: 0; /* Remove o padding padrão do corpo */
     margin: 0; /* Remove a margem padrão do corpo */
     padding: 0; /* Remove o padding padrão do corpo */
     background-image: url("background.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 h2{
@@ -14,12 +14,16 @@ h2{
 }
 .login{
     text-align: center;
-    border-style: none;
-    border-radius: 50px;
-    width: 60%;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 10px;
+    border-color: whitesmoke;
+    width: 30%;
+    margin-top: -30vh;
+    margin-left: 20vh;
 }
 input{
-    border-style: groove;
+    border-style: solid;
     border-radius: 10px;
     background-color: white;
     border-color: black;
@@ -28,24 +32,18 @@ input{
 }
 input:hover{
     scale: 1.1;
-    transition-duration: 0.10s;
-}
-img{
-    height: 100%;
-    width: 100%;
-    align-items: center;
+    transition-duration: 0.5s;
 }
 button{
     border-radius: 10px;
     border-style: hidden;
-    border-color: red;
-    background-color: rgb(230, 20, 20);
+    background-color: #E10600;
     text-align: center;
     height: 50px;
     width: 80%;
 }
 button:hover{
-    background-color: yellow;
+    background-color: #cc0700;
     scale: 1.1;
     transition-duration: 0.5s;
 }
@@ -53,29 +51,12 @@ button:hover{
     height: 300px;
     width: 30vw;
 }
-.frufru{
-    border-style: solid;
-    border-radius: 50px;
-    width: 1000px;
-    text-align: center;
-    color: black;
-}
 h1{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial, sans-serif;
     font-size: medium;
 }
 hr{
     width: 80%;
-}
-.button2{
-    width: 20vw;
-    height:50px ;
-    background-color: red;
-}
-.button2:hover{
-    background-color: greenyellow;
-    scale: 1.1;
-    transition-duration: 0.5s;
 }
 p {
     font-size: 16px; /* Define o tamanho da fonte dos parágrafos */
@@ -83,39 +64,21 @@ p {
 }
 /* Estilo para o modal */
 .modal {
+    text-align: center;
     display: block; /* Oculta o modal por padrão */
-    position: fixed; /* Fixa o modal na tela */
     z-index: 1; /* Garante que o modal fique acima de outros elementos */
-    left: 0;
-    top: 0;
-    width: 100%; /* Largura total da tela */
-    height: 100%; /* Altura total da tela */
-    overflow: auto; /* Adiciona barra de rolagem se necessário */
-    background-color: rgb(0,0,0); /* Cor de fundo */
-    background-color: rgba(0,0,0,0.4); /* Cor de fundo com transparência */
+    width: 40%;
+    /* overflow: auto; */
+    margin-left: 20vh;
+    /* position: fixed; */
+    /* background-color: rgb(0,0,0);  */
+    /* background-color: rgba(0,0,0,0.4); */
 }
 /* Estilo para o conteúdo do modal */
 .modal-content {
     background-color: #fefefe; /* Cor de fundo do conteúdo */
     margin: 15% auto; /* Margem para centralizar o modal */
-    padding: 20px; /* Espaçamento interno */
+    padding: 10px;
     border: 1px solid #888; /* Borda do modal */
-    width: 80%; /* Largura do conteúdo do modal */
+    width: auto; /* Largura do conteúdo do modal */
 }
-/* Estilo para o botão de fechar */
-.close {
-    color: #aaa; /* Cor do botão de fechar */
-    float: right; /* Alinha à direita */
-    font-size: 28px; /* Tamanho da fonte */
-    font-weight: bold; /* Negrito */
-}
-/* Estilo para o botão de fechar quando o mouse estiver sobre ele */
-.close:hover,
-.close:focus {
-    color: black; /* Cor preta */
-    text-decoration: none; /* Remove sublinhado */
-    cursor: pointer; /* Altera o cursor para pointer */
-}
-
-
-

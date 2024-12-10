@@ -30,3 +30,6 @@ function redHome() {
 function redAnalise() {
     window.location.href = 'review.html';
 }
+function redLogin() {
+    window.location.href = 'index.html';
+}

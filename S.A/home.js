@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (filmes.length === 0) {
         conteudo.innerHTML = `
-            <p>Você não gostaria de criar uma análise?</p>
+            <p>Parece que ainda não tem nada aqui. Gostaria de criar uma análise?</p>
             <button onclick="redAnalise()">Criar Análise</button>
         `;
     } else {
@@ -31,6 +31,9 @@ function redHome() {
 
 function redAnalise() {
     window.location.href = 'review.html';
+}
+function redLogin() {
+    window.location.href = 'index.html';
 }
 
 function mostrarModal(filme) {

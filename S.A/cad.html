@@ -4,15 +4,13 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>ViewFlix - Cadastro</title>
 </head>
 <body>
-    <!-- Definição do modal -->
     <div id="myModal" class="modal">
         <div class="modal-content">
-            <span class="close">&times;</span>
             <br>
-            <h2> Faça seu cadastro abaixo: </h2><br>
+            <h2>Novo no ViewFlix? Crie sua conta aqui</h2><br>
             <br>
             <input type="text" id="cadUser" placeholder="Usuário" required><br>
             <br>
@@ -21,7 +19,8 @@
             <label for="cadImagem">Foto (opcional):</label><br>
             <input type="file" id="cadImagem" name="cadImagem" accept="image/*"><br>
             <br>
-            <button onclick="cad()">Cadastrar</button>
+            <button onclick="redirLogin()">Já tenho uma conta!</button><hr>
+            <button onclick="cad()">Criar Conta</button>
         </div>
     </div>
     <script src="script.js"></script>

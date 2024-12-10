@@ -26,6 +26,9 @@ function redHome() {
 function redPerfil() {
     window.location.href = 'perfil.html';
 }
+function redLogin() {
+    window.location.href = 'index.html';
+}
 
 function mostrarModalModificar() {
     document.getElementById("modalModificar").style.display = "block";

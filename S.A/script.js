@@ -11,7 +11,7 @@ function cad() {
             const cadUsuario = { usuario, senha, imagem };
             bancoDeDados.push(cadUsuario);
             localStorage.setItem("bancoDeDados", JSON.stringify(bancoDeDados));
-            alert("Usuário cadastrado com sucesso!");
+            alert("Usuário cadastrado com sucesso.");
             window.location.href = "index.html";
         };
         reader.readAsDataURL(imagemInput.files[0]);
@@ -19,7 +19,7 @@ function cad() {
         const cadUsuario = { usuario, senha, imagem: "" }; // Adiciona um valor vazio para a imagem se não for fornecida
         bancoDeDados.push(cadUsuario);
         localStorage.setItem("bancoDeDados", JSON.stringify(bancoDeDados));
-        alert("Usuário cadastrado com sucesso!");
+        alert("Usuário cadastrado com sucesso.");
         window.location.href = "index.html";
     }
 }
@@ -32,12 +32,12 @@ function logar() {
     for (let usuario of bancoDeDados) {
         if (username === usuario.usuario && senha === usuario.senha) {
             localStorage.setItem("usuarioLogado", username);
-            alert("Parabéns, você logou!");
+            alert("Login realizado com sucesso. Carregando site...");
             window.location.href = "home.html";
             return;
         }
     }
-    alert("Usuário/Senha incorretos!");
+    alert("Usuário/Senha incorretos.");
 }
 
 function cadLocation() {
@@ -45,5 +45,9 @@ function cadLocation() {
 }
 
 function voltar() {
+    window.location.href = "index.html";
+}
+
+function redirLogin() {
     window.location.href = "index.html";
 }
