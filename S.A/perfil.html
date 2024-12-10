@@ -21,8 +21,8 @@
             <!-- As informações do usuário serão inseridas aqui -->
         </div>
         <button onclick="mostrarModalModificar()">Modificar</button>
+        <button onclick="mostrarModalDeslogar()">Sair</button>
         <button onclick="mostrarModalDeletar()">Deletar</button>
-        <button onclick="mostrarModalDeslogar()">Deslogar</button>
     </div>
 
     <!-- Modal Modificar -->
@@ -70,9 +70,7 @@
     <!-- Modal Deslogar -->
     <div id="modalDeslogar" class="modal">
         <div class="modal-content">
-            <span class="close" onclick="fecharModal('modalDeslogar')">&times;</span>
-            <h2>Deslogar</h2>
-            <p>Tem certeza que quer sair?</p>
+            <p align="center">Tem certeza que deseja sair?</p>
             <button onclick="deslogar()">Sim</button>
             <button onclick="fecharModal('modalDeslogar')">Não</button>
         </div>
