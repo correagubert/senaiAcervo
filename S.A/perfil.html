@@ -55,18 +55,6 @@
             </form>
         </div>
     </div>
-
-    <!-- Modal Deletar -->
-    <div id="modalDeletar" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="fecharModal('modalDeletar')">&times;</span>
-            <h2>Deletar Usuário</h2>
-            <p>Tem certeza que deseja deletar sua conta?</p>
-            <button onclick="deletarConta()">Sim</button>
-            <button onclick="fecharModal('modalDeletar')">Não</button>
-        </div>
-    </div>
-
     <!-- Modal Deslogar -->
     <div id="modalDeslogar" class="modal">
         <div class="modal-content">
@@ -75,7 +63,16 @@
             <button onclick="fecharModal('modalDeslogar')">Não</button>
         </div>
     </div>
-
+    <!-- Modal Deletar -->
+    <div id="modalDeletar" class="modal">
+        <div class="modal-content">
+            <!-- <span class="close" onclick="fecharModal('modalDeletar')">&times;</span> -->
+            <!-- <h2>Deletar Usuário</h2> -->
+            <p align="center">Tem certeza que deseja deletar sua conta?</p>
+            <button onclick="deletarConta()">Sim</button>
+            <button onclick="fecharModal('modalDeletar')">Não</button>
+        </div>
+    </div>
     <script src="perfil.js"></script>
 </body>
 </html>
