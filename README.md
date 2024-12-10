@@ -1,4 +1,4 @@
-# SITUAÇÃO DE APRENDIZAGEM DO SENAI - "Reviews"
+# SITUAÇÃO DE APRENDIZAGEM DO SENAI - "ViewFlix"
 MEMBROS DO PROJETO:
 - Nicolas Corrêa Gubert;
 - Vitor Carlos Souza da Rocha Pinto;
