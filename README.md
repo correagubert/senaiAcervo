@@ -1,8 +1,9 @@
-# SITUAÇÃO DE APRENDIZAGEM DO SENAI - "ViewFlix"
+# SITUAÇÃO DE APRENDIZAGEM DO SENAI
 MEMBROS DO PROJETO:
 - Nicolas Corrêa Gubert;
 - Vitor Carlos Souza da Rocha Pinto;
-- Tiago Burlamaque
+- Eric Mara de Oliveira
+- Ulisses
 
 # TEMA:
-A ideia do projeto é criar um site com um sistema de reviews com cadastro: o usuário pode realizar o login no site e depois registrar filmes e séries com a avaliação do mesmo; os quais serão mostrados na homepage do site.
+N/A
