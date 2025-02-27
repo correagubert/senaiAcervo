@@ -5,5 +5,5 @@ MEMBROS DO PROJETO:
 - Eric Mara de Oliveira
 - Ulisses
 
-# TEMA:
-N/A
+# TEMA: Aplicativo de serviço de limpeza
+Sera um aplicativo para facilitar o encontro de pessoas que prestam serviço de limpeza.
